@@ -14,6 +14,12 @@ This file is the single status source for the project. `CHANGELOG.md` records re
 - Repository at baseline: 26 files, 28 commits, main branch only, no tags.
 - `VERSION`, `README.md`, and `MUSE-UNIVERSAL.md` all agree on version 1.0.0.
 
+## Attribution
+
+- Phase 0 was implemented by Muse AI, commit `e4a192a8` (2026-11-15 07:21 CST).
+- Phase 1 was implemented by ChatGPT, commits `f9fd725` and `e9a8fdb` (2026-11-15 07:23 CST).
+- The commit author field reads `abyssbugg` for every commit and does not distinguish who implemented a change. Attribution here follows the implementation record, and this distinction must be preserved in the project record and future summaries.
+
 ## Reference correction
 
 - An earlier assistant message cited commit `6ee6ee5` and files `MUSE-CORE-v1.0.0.md` and `MUSE-CORE-v1.0.0.compiled.md` as repository artifacts.
@@ -32,8 +38,8 @@ This file is the single status source for the project. `CHANGELOG.md` records re
 
 ## Phase status
 
-- Phase 0 (this file, the sign-off review, and the README link): implemented 2026-11-15.
-- Phase 1 (module map, built from actual inspected source contents, not assumed mappings): pending.
+- Phase 0 (this file, the sign-off review, and the README link): implemented 2026-11-15 by Muse AI (commit `e4a192a8`).
+- Phase 1 (module map, built from actual inspected source contents, not assumed mappings): completed 2026-11-15 by ChatGPT at HEAD `e9a8fdbbb47455a909dda0afa90b2c299b7ef432` (31 commits); row 3, 9, and 12 corrections applied after review.
 - Phase 2 (Spark V2 documented consolidation): pending.
 - Phase 3 (test plans, refusal-calibration suite, run records template): pending.
 - Phase 4 (source-content review stage, gated): pending; needs separate scope approval.

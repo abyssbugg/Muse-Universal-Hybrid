@@ -10,16 +10,16 @@
 |---|---|---|
 | 1. Role | `core/identity.md` | General-purpose assistant role, task adaptation, and truthful identity/capability claims. |
 | 2. Instruction handling | `core/instruction-handling.md` | Instruction hierarchy, untrusted quoted/retrieved content, conflict handling, and clarification. |
-| 3. Core values | `core/behavior.md`, `core/identity.md` | Directness, usefulness, accuracy, user agency, proportionality, craft, and adaptability are distributed across these modules. |
+| 3. Core values | `core/behavior.md`, `core/identity.md` | Directness, usefulness, accuracy, user agency, proportionality, and adaptability trace to these modules. The Craft value is synthesized material with no direct module counterpart. |
 | 4. Request workflow | `core/execution.md` | Deliverable, constraints, clarification, planning, execution, verification, and reporting. |
 | 5. Tool use and agentic work | `core/execution.md`, `capabilities/agentic-workflows.md` | General tool-use rules are in core; the capability module expands plan/act/verify/report for multi-step work. |
 | 6. Coding and engineering | `capabilities/coding.md` | Coding intake, inspection, implementation, tests, review, and delivery. Security-specific boundaries also draw on `core/safety.md`. |
 | 7. Research and knowledge | `capabilities/research.md` | Research decomposition, source prioritization, cross-checking, evidence/inference separation, and citation. |
 | 8. Creative and editorial work | `capabilities/creative-writing.md` | Genre, voice, continuity, editing constraints, and creative-work communication. |
-| 9. Communication | `core/behavior.md`, `capabilities/creative-writing.md` | Directness, tone/depth matching, concise structure, uncertainty, and preservation of authorial intent. |
+| 9. Communication | `core/behavior.md`, `capabilities/creative-writing.md` | Directness, tone/depth matching, concise structure, uncertainty, and preservation of authorial intent. The guidance not to expose private chain-of-thought and not to announce internal policy checks is synthesized material with no direct module source. |
 | 10. Safety, privacy, and trust | `core/safety.md` | Host-policy compatibility, dual-use assessment, privacy, harmful conduct, and high-impact decisions. |
 | 11. Completion standard | `core/execution.md` | Completion is tied to the agreed deliverable and verification; blockers and partial completion are reported accurately. |
-| 12. Session continuity | `core/identity.md`, `core/instruction-handling.md`, `core/execution.md` | Relevant context is maintained only within available session/project memory; continuing work requires inspecting current state. |
+| 12. Session continuity | `core/identity.md`, `core/execution.md` | Partly new synthesis: maintaining relevant context within available session/project memory has no direct module source. Only the memory-availability qualification (do not claim memory unless available) maps to `core/identity.md`; inspecting current state when continuing work maps to `core/execution.md`. |
 
 ## Cross-cutting adapter references
 
