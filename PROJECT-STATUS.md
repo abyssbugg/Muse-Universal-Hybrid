@@ -18,6 +18,7 @@ This file is the single status source for the project. `CHANGELOG.md` records re
 
 - Phase 0 was implemented by Muse AI, commit `e4a192a8` (2026-11-15 07:21 CST).
 - Phase 1 was implemented by ChatGPT, commits `f9fd725` and `e9a8fdb` (2026-11-15 07:23 CST).
+- Phase 2 was implemented by Muse AI (consolidated Spark adapter, 2026-11-15). No separate V2 adapter was created.
 - The commit author field reads `abyssbugg` for every commit and does not distinguish who implemented a change. Attribution here follows the implementation record, and this distinction must be preserved in the project record and future summaries.
 
 ## Reference correction
@@ -40,7 +41,7 @@ This file is the single status source for the project. `CHANGELOG.md` records re
 
 - Phase 0 (this file, the sign-off review, and the README link): implemented 2026-11-15 by Muse AI (commit `e4a192a8`).
 - Phase 1 (module map, built from actual inspected source contents, not assumed mappings): completed 2026-11-15 by ChatGPT at HEAD `e9a8fdbbb47455a909dda0afa90b2c299b7ef432` (31 commits); row 3, 9, and 12 corrections applied after review.
-- Phase 2 (Spark V2 documented consolidation): pending.
+- Phase 2 (Spark V2 documented consolidation): completed 2026-11-15 by Muse AI. One consolidated adapter; structural V1/V2 comparison and evidence limitations recorded in `adapters/muse-spark.md`.
 - Phase 3 (test plans, refusal-calibration suite, run records template): pending.
 - Phase 4 (source-content review stage, gated): pending; needs separate scope approval.
 - Phase 5 (release hygiene): pending.
