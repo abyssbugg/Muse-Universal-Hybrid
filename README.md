@@ -28,6 +28,7 @@ A modular, model-adaptable instruction framework for high-quality assistance acr
 - `tests/`: behavioral and compatibility checks.
 - `sources/original/`: five source files preserved unchanged.
 - `CHANGELOG.md`, `VERSION`: release tracking.
+- `PROJECT-STATUS.md`: current project status, baseline, and open decisions.
 
 ## Updating
 Edit the relevant module first, then update the compiled prompt so it remains consistent. Record changes in `CHANGELOG.md`, increment `VERSION`, and rerun the test suite. Do not treat an adapter's claims as facts until validated against the target model.
